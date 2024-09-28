@@ -1,0 +1,45 @@
+{
+  "name": "pobble.db",
+  "version": "1.0.0",
+  "description": "A simple database solution using text files.",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "types": "src/@types/index.d.ts",
+  "files": [
+    "src/",
+    "src/@types/"
+  ],
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "typescript": "^5.6.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pobble-services/pobble.db.git"
+  },
+  "author": "pobble.services",
+  "license": "ISC",
+  "keywords": [
+    "database",
+    "db",
+    "txt.database",
+    "txt.db",
+    "txt",
+    "text",
+    "file",
+    "files",
+    "pobble.db"
+  ],
+  "dependencies": {
+    "fs": "^0.0.1-security"
+  },
+  "bugs": {
+    "url": "https://github.com/pobble-services/pobble.db/issues"
+  },
+  "homepage": "https://github.com/pobble-services/pobble.db#readme"
+}
